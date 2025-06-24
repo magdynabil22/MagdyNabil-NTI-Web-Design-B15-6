@@ -1,0 +1,156 @@
+/* reset style*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    color: white;
+}
+nav ul{
+    display: inline-block;
+    width: 50%;
+    list-style: none;
+}
+nav li{
+    text-decoration: none;
+      font-size: 22px;
+      margin-top: 2%;
+      margin-left: 8%;
+}
+nav{
+    height: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-right: 0%;
+}
+main{
+    background-image: url("../images/main-background.jpg");
+    height: 1100px;
+    background-size: 100% 100%;
+}
+/*global styles */
+.bg-dark{
+    background-color: black;
+}
+.text-black{
+    color:black;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.text-white{
+    color: white;
+}
+.nav-logo-right{
+    color: orangered;
+    font-weight: 400;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.nav-logo{
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+}
+.text-grey{
+    color: rgba(255, 255, 255, 0.699);
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 100%;
+    height: 1100px;
+}
+.main-logo{
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    padding-top: 15%;
+
+}
+.main-right-logo{
+    color: orangered;
+    font-size: 70px;
+     font-weight: 400;
+}
+
+/*custom styles*/
+.intro{
+    font-size: 48px;
+}
+.separator{
+    width: 30%;
+    margin: 5% 0%;
+}
+.content{
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+.download-button{
+    font-size: 32px;
+    font-weight: 300;
+    padding: 2%;
+    border: 4px solid white;
+    color: white;
+    width: 33%;
+    cursor: pointer;
+    background: none;
+}
+.form-choices{
+    color: rgb(206, 205, 205);
+    padding: 3% 5% 3% 5%;
+    height: 20%;
+    margin: 5% 5% 8% 8%;
+    width: 80%;
+    font-size: 18px;
+    border: 1px solid  rgb(206, 205, 205);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: white;
+}
+
+.form-title{
+    color: black;
+    background-color: rgb(138, 137, 137);
+    font-size: 30px;
+    text-align: center;
+    padding: 3% 6%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.form-footer{
+    background-color: rgb(255, 126, 5);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 3% 6%;
+    margin-top: 5%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.left-section{
+    width: 55%;
+    vertical-align: top;
+    margin-right: 8%;
+}
+.right-section{
+    width: 36%;
+    vertical-align: top;
+    margin-top: 16%;
+    background-color: white;
+    border-radius: 5%;
+
+}
