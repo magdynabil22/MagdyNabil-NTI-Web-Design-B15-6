@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Shop</title>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="d-flex">
+    <nav>
+        <ul class="d-flex align-items-center">
+            <li class="text-muted">
+                <a href="">
+                    <i class="fa-brands fa-readme nav-icon selected-icon bg-theme"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa-solid fa-user nav-icon text-muted"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa-solid fa-wallet nav-icon text-muted"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa-solid fa-gear nav-icon text-muted"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa-solid fa-envelope nav-icon text-muted"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa-solid fa-chart-pie nav-icon text-muted"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa-solid fa-message nav-icon text-muted"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main class="bg-secondary">
+        <header class="container">
+            <div class="title d-flex justify-content-between align-items-center">
+                <div class="greetings">
+                    <h4 class="text-muted">Hello John</h4>
+                    <h2 class="welcome-back">Welcome Back</h2>
+                </div>
+                <form class="search-bar">
+                    <div class="relative">
+                        <i class="fa-solid fa-magnifying-glass search-icon absolute"></i>
+                        <input type="search" placeholder="Search">
+                    </div>
+                </form>
+            </div>
+            <div class="content d-flex justify-content-between">
+                <div class="content-text">
+                    <p class="content-title main-color">
+                        Make Your First Order and Get <span class="secondary-color">50% off</span>
+                    </p>
+                    <p class="content-desc main-color">
+                        In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate
+                        the visual form of a document or a typeface without.
+                    </p>
+                    <button class="order-now-button main-color bg-theme">
+                        Order Now
+                    </button>
+                </div>
+                <img src="images/pizza3.png" alt="pizza" class="content-img">
+            </div>
+        </header>
+        <section class="container middle-nav ">
+            <ul class="d-flex justify-content-between align-items-center">
+                <li class="middle-navbar-choices">
+                    <h2 class="our-menu">Our Menu</h2>
+                </li>
+                <li class="middle-navbar-choices">
+                    <div class="middle-navbar-content bg-main d-flex align-items-center">
+                        <img src="images/pizza.png" alt="pizza" class="middle-navbar-choices-icon">
+                        <p class="middle-navbar-choices-text">Pizza</p>
+                    </div>
+                </li>
+                <li class="middle-navbar-choices">
+                    <div class="middle-navbar-content bg-main d-flex align-items-center">
+                        <img src="images/burger.png" alt="pizza" class="middle-navbar-choices-icon">
+                        <p class="middle-navbar-choices-text">Burger</p>
+                    </div>
+                </li>
+                <li class="middle-navbar-choices">
+                    <div class="middle-navbar-content bg-main d-flex align-items-center">
+                        <img src="images/fries.png" alt="pizza" class="middle-navbar-choices-icon">
+                        <p class="middle-navbar-choices-text">Fries</p>
+                    </div>
+                </li>
+                <li class="middle-navbar-choices">
+                    <div class="middle-navbar-content bg-main d-flex align-items-center">
+                        <img src="images/pack.png" alt="pizza" class="middle-navbar-choices-icon">
+                        <p class="middle-navbar-choices-text">Pack</p>
+                    </div>
+                </li>
+                <li class="middle-navbar-choices">
+                    <div class="middle-navbar-content">
+                        <p class="middle-navbar-choices-text secondary-color see-all">See All</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!-- Replace the existing food-items-section with this -->
+        <section class="container food-items-section">
+            <div class="food-items-container ">
+                <div class="food-item-card d-flex align-items-center">
+                    <img src="images/pizza1.png" alt="Pizza with Peperoni" class="food-item-img">
+                    <div class="food-item-content">
+                        <h3 class="food-item-title">Pizza with Peperoni</h3>
+                        <p class="food-item-time">14-20 minutes</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="food-item-price">$12</span>
+                            <button class="add-btn d-flex align-items-center justify-content-center">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-item-card d-flex align-items-center">
+                    <img src="images/pizza2.png" alt="Pizza with Cheese" class="food-item-img">
+                    <div class="food-item-content">
+                        <h3 class="food-item-title">Pizza with Cheese</h3>
+                        <p class="food-item-time">16-25 minutes</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="food-item-price">$14</span>
+                            <button class="add-btn d-flex align-items-center justify-content-center">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="side-bar bg-main">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center sidebar-spacing">
+                <div class="d-flex align-items-center user-profile-gap">
+                    <img src="images/user-img.png" alt="user image"
+                        class="user-avatar d-flex align-items-center justify-content-between">
+                    <p class="user-name">John Smith</p>
+                </div>
+                <i class="fa-regular fa-bell bell-icon"></i>
+            </div>
+            <img src="images/card.png" alt="credit-card" class="payment-card">
+            <div class="side-bar-order-menu">
+                <div class="d-flex justify-content-between align-items-center order-menu-spacing">
+                    <h2 class="order-menu-title">Order Menu</h2>
+                    <a href="" class="see-all-link secondary-color">See All</a>
+                </div>
+                <div class="d-flex align-items-center order-item">
+                    <img src="images/topping1.png" alt="Pizza with Mushrooms" class="order-item-img">
+                    <div class="order-item-details">
+                        <div class="order-item-name">Pizza with Mushrooms</div>
+                        <div class="order-item-desc">8 Inch</div>
+                        <div class="order-item-price">$12</div>
+                    </div>
+                    <div class="d-flex align-items-center order-item-quantity">
+                        <button class="quantity-btn d-flex justify-content-between">-</button>
+                        <span class="quantity-number" id="mushroom-qty">01</span>
+                        <button class="quantity-btn d-flex justify-content-between">+</button>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center order-item">
+                    <div class="relative">
+                        <img src="images/topping2.png" alt="Meat with Potato" class="order-item-img">
+                    </div>
+                    <div class="order-item-details">
+                        <div class="order-item-name">Meat with Potato</div>
+                        <div class="order-item-desc">Extra tasty</div>
+                        <div class="order-item-price">$40</div>
+                    </div>
+                    <div class="d-flex align-items-center order-item-quantity">
+                        <button class="quantity-btn d-flex align-items-center justify-content-between">-</button>
+                        <span class="quantity-number" id="meat-qty">01</span>
+                        <button class="quantity-btn d-flex align-items-center justify-content-between">+</button>
+                    </div>
+                </div>
+
+                <div class="order-total">
+                    <div class="d-flex justify-content-between align-items-center total-spacing">
+                        <span class="total-label">Total Price</span>
+                        <span class="total-price" id="total-price">$52.00</span>
+                    </div>
+
+                    <button class="checkout-btn main-color bg-theme">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+
+
+
+    <!-- 
+    <i class="fa-regular fa-bell"></i>
+    <i class="fa-solid fa-magnifying-glass"></i> -->
+</body>
+
+</html>

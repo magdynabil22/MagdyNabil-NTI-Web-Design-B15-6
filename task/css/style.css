@@ -1,0 +1,454 @@
+/*reset styles*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 55%;
+}
+
+nav {
+    box-shadow: 0px 2px 10px 12px rgba(211, 211, 211, 0.452);
+    margin-right: 0.5%;
+}
+
+main {
+    width: 60%;
+}
+
+.side-bar {
+    width: 30%;
+    box-shadow: 2px 0px 5px 6px rgba(211, 211, 211, 0.452);
+}
+
+/*global styles*/
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 4% 0%;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.main-color {
+    color: white;
+}
+
+.secondary-color {
+    color: #FF9921;
+}
+
+.price-color {
+    color: #01C550;
+}
+
+.text-muted {
+    color: rgba(180, 188, 207, 1);
+}
+
+.text-muted-order-menu,
+.search-icon,
+.bell-icon {
+    color: rgba(97, 101, 111, 1);
+    font-size: 14px;
+}
+
+.bg-main {
+    background-color: white;
+}
+
+.bg-secondary {
+    background-color: #eee;
+}
+
+.bg-menu {
+    background-color: rgba(180, 188, 207, 0.3);
+}
+
+.bg-theme {
+    background-color: rgba(255, 138, 0, 1);
+    ;
+}
+
+nav {
+    width: 8%;
+    height: 950px;
+}
+
+.nav-icon {
+    font-size: 28px;
+    text-align: center;
+    line-height: 48px;
+
+}
+
+
+/*custom styles*/
+.selected-icon {
+    border: none;
+    border-radius: 10px;
+    width: 48px;
+    height: 48px;
+    color: white;
+}
+
+.welcome-back {
+    font-weight: 500;
+    margin-top: 5%;
+}
+
+.search-bar {
+    width: 35%;
+    margin-right: 10%;
+}
+
+.search-bar input {
+    border: none;
+    border-radius: 12px;
+    background-color: rgba(180, 188, 207, 0.41);
+    height: 40px;
+    width: 100%;
+    padding-left: 23%;
+}
+
+input::placeholder {
+    font-size: 16px;
+    color: rgba(97, 101, 111, 1);
+
+}
+
+.search-icon {
+    font-size: 16px;
+    top: 10px;
+    left: 10px;
+}
+
+.content {
+    background-color: rgba(47, 47, 47, 1);
+    height: fit-content;
+    border-radius: 29px;
+    margin-top: 2%;
+    height: fit-content;
+}
+
+.content-img {
+    height: 290px;
+    overflow-y: hidden;
+    width: 40%;
+}
+
+.content-text {
+    width: 60%;
+    padding: 3% 5%;
+}
+
+.content-title {
+    width: 90%;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content-desc {
+    margin-top: 2%;
+    font-size: 13px;
+    width: 100%;
+    line-height: 1.5;
+}
+
+.order-now-button {
+    margin-top: 8%;
+    padding: 4% 8%;
+    border: none;
+    border-radius: 13px;
+    font-size: 16px;
+}
+
+.middle-nav {
+    height: 30px;
+}
+
+.middle-nav ul {
+    list-style: none;
+    column-gap: 10px;
+}
+
+.middle-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.middle-navbar-choices {
+    width: 15%;
+}
+
+.middle-navbar-content {
+    border-radius: 34px;
+    width: 100%;
+    padding: 4% 4%;
+}
+
+.middle-navbar-choices-text {
+    font-weight: 400;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.our-menu {
+    margin-right: 2%;
+}
+
+.see-all {
+    padding: 0;
+    margin: 0;
+}
+.food-items-section {
+    margin-top: 4%;
+}
+
+.food-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.food-item-card {
+    background-color: white;
+    border-radius: 50px;
+    padding: 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 48%;
+    height: fit-content;
+}
+
+.food-item-img {
+    width: 60%;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.food-item-content{
+    width: 40%;
+}
+.food-item-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.food-item-time {
+    font-size: 14px;
+    color: #B4BCCF;
+    margin-bottom: 15px;
+}
+
+.food-item-price {
+    font-size: 20px;
+    font-weight: 600;
+    color: #01C550;
+}
+
+.add-btn {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+    font-weight: 300;
+}
+
+.add-btn:hover {
+    border-color: #FF9921;
+    color: #FF9921;
+}
+.side-bar{
+    width: 31.5%;
+}
+.user-profile-gap {
+    gap: 12px;
+}
+
+.user-avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.user-name {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bell-icon {
+    font-size: 20px;
+    color: rgba(97, 101, 111, 1);
+    cursor: pointer;
+}
+
+.payment-card {
+    width: 100%;
+    overflow: hidden;
+}
+
+.card-type {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.card-number {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.card-holder {
+    font-size: 12px;
+}
+
+.card-expiry {
+    font-size: 12px;
+}
+
+.order-menu-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10%;
+}
+
+.see-all-link {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.order-item {
+    gap: 15px;
+    margin-bottom: 20px;
+    background-color: rgba(180, 188, 207, 0.3);
+    border-radius: 20px;
+    border: none;
+    height: 100px;
+    width: 95%;
+    padding: 0 5%;
+    margin-left: 2%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);}
+
+.order-item-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+}
+
+.order-item-details {
+    flex: 1;
+}
+
+.order-item-name {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.order-item-desc {
+    font-size: 14px;
+    color: rgba(97, 101, 111, 1);
+    margin-bottom: 4px;
+}
+
+.order-item-price {
+    font-size: 14px;
+    font-weight: 600;
+    color: #01C550;
+}
+
+.order-item-quantity {
+    gap: 8px;
+    vertical-align: bottom;
+}
+
+.order-item-quantity {
+    gap: 8px;
+    align-self: flex-end;
+        font-size: 20px;
+
+}
+
+.quantity-btn {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.order-total {
+    margin-top: 8%;
+    padding-top: 8%;
+    border-top: 1px solid #eee;
+}
+
+.total-label {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.total-price {
+    font-size: 26px;
+    font-weight: 600;
+    color: #01C550;
+}
+
+.checkout-btn {
+    width: 50%;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 6%;
+    vertical-align: center;
+    margin-left: 25%;
+}
+.side-bar-order-menu{
+    margin-top: 4%;
+}
